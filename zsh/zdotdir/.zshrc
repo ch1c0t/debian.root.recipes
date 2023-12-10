@@ -1,0 +1,10 @@
+. $ZDOTDIR/hist.sh
+. $ZDOTDIR/misc.sh
+. $ZDOTDIR/comp.sh
+. /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+. /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+. $ZDOTDIR/env.sh
+. $ZDOTDIR/alias.sh
+. $ZDOTDIR/prompt.sh
+. $ZDOTDIR/bindkey.sh
+. $ZDOTDIR/git.sh
