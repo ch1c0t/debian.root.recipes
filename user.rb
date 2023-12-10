@@ -8,7 +8,7 @@ user :create do
   shell '/bin/zsh'
 end
 
-include_recipe 'base_directories'
+include_recipe 'base'
 include_recipe 'zsh'
 
 execute "chown -R #{USER}:#{USER} #{HOME}"
