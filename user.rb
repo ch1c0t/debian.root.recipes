@@ -10,3 +10,5 @@ end
 
 include_recipe 'base_directories'
 include_recipe 'zsh'
+
+execute "chown -R #{USER}:#{USER} #{HOME}"
