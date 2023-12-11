@@ -10,5 +10,6 @@ end
 
 include_recipe 'base'
 include_recipe 'zsh'
+include_recipe 'tmux'
 
 execute "chown -R #{USER}:#{USER} #{HOME}"
