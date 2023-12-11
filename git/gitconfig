@@ -1,0 +1,21 @@
+[user]
+	email = chertoly@gmail.com
+	name = Anatoly Chernov
+[credential]
+	helper = cache --timeout=3600
+[core]
+	excludesfile = ~/.config/git/global_gitignore
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	r = "!git clean -fd; git reset HEAD --hard"
+	update = "!git pull && git submodule update --init --recursive"
+[github]
+	user = ch1c0t
+[init]
+	defaultBranch = main
+[pull]
+	ff = only

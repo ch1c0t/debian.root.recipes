@@ -1,0 +1,41 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.bak
+
+# Bundler
+# Gemfile.lock
+
+# Bower components
+assets/components
+
+# vagrant
+.vagrant/
+
+# coverage
+coverage
+
+*.gem
+
+node_modules
+dist
+
+__pycache__
+venv
+
+.parcel-cache
+.env
+
+.terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+dump.rdb

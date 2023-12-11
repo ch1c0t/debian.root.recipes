@@ -12,5 +12,6 @@ include_recipe 'base'
 include_recipe 'zsh'
 include_recipe 'tmux'
 include_recipe 'i3'
+include_recipe 'git'
 
 execute "chown -R #{USER}:#{USER} #{HOME}"
