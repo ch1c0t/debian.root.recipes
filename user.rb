@@ -14,4 +14,5 @@ include_recipe 'tmux'
 include_recipe 'i3'
 include_recipe 'git'
 
+execute "chmod -R 700 #{HOME}"
 execute "chown -R #{USER}:#{USER} #{HOME}"
