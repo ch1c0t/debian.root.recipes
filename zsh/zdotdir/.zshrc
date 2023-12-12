@@ -8,3 +8,4 @@
 . $ZDOTDIR/prompt.sh
 . $ZDOTDIR/bindkey.sh
 . $ZDOTDIR/git.sh
+. $ZDOTDIR/fzf.sh
