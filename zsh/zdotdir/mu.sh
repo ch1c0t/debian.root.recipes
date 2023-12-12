@@ -3,4 +3,11 @@ function mu {
   MUSER=$1 mitamae local user.rb
 }
 
-bindkey -s '\em' 'cd ~/recipes; ruby $(rg --files *.rb | fzf)^M'
+function execute-mitamae-recipe {
+  cd ~/recipes
+  ruby $(rg --files *.rb | fzf)
+  zle accept-line
+}
+
+zle -N execute-mitamae-recipe
+bindkey '\em' execute-mitamae-recipe
