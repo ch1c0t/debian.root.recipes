@@ -5,8 +5,14 @@ function mu {
 
 function execute-mitamae-recipe {
   cd ~/recipes
-  ruby $(rg --files *.rb | fzf)
-  zle accept-line
+
+  local file
+  file=$(rg --files *.rb | fzf)
+
+  if [ -n "$file" ]; then
+    ruby "$file"
+    zle accept-line
+  fi
 }
 
 zle -N execute-mitamae-recipe
