@@ -11,7 +11,6 @@ function edit-file {
 
   if [ -n "$file" ]; then
     ${EDITOR} $file
-    zle accept-line
   fi
 }
 zle -N edit-file
