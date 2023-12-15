@@ -10,3 +10,4 @@
 . $ZDOTDIR/git.sh
 . $ZDOTDIR/fzf.sh
 . $ZDOTDIR/mu.sh
+. $ZDOTDIR/cd.sh
