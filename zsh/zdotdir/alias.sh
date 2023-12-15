@@ -10,6 +10,8 @@ alias bu="busctl --user"
 alias tm="tmuxinator"
 alias n="nvim"
 alias l="ls -lah"
+alias fd="fdfind"
+alias bat="batcat"
 
 e() {
   ${EDITOR} $1
