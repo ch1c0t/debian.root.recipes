@@ -1,4 +1,4 @@
-export FZF_DEFAULT_COMMAND='rg --files --hidden --glob "!.git"'
+export FZF_DEFAULT_COMMAND='fdfind --type f --strip-cwd-prefix --hidden --follow --exclude .git'
 
 . /usr/share/doc/fzf/examples/key-bindings.zsh
 
