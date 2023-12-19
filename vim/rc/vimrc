@@ -1,4 +1,4 @@
-inoremap jk <esc>
-
-set number
-set rnu
+" https://s0ands0.github.io/100-days-of-code/r001/084-vim-glob/
+for file in glob('~/.vim/*.vim', 1, 1)
+  exe 'so' file
+endfor
