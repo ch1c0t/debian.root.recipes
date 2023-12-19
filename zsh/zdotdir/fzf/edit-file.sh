@@ -3,7 +3,8 @@ function edit-file {
   file=$(fd --type f --strip-cwd-prefix --hidden --exclude .git | fzf --reverse --height 100% --preview 'batcat -n --color=always {}')
 
   if [ -n "$file" ]; then
-    ${EDITOR} $file
+    # https://unix.stackexchange.com/questions/550688/how-to-open-vim-inside-a-bash-script/550697#550697
+    < /dev/tty ${EDITOR} "$file"
   fi
 }
 

@@ -1,0 +1,4 @@
+inoremap jk <esc>
+
+set number
+set rnu

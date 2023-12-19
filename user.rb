@@ -13,6 +13,7 @@ include_recipe 'zsh'
 include_recipe 'tmux'
 include_recipe 'i3'
 include_recipe 'git'
+include_recipe 'vim'
 
 execute "chmod -R 700 #{HOME}"
 execute "chown -R #{USER}:#{USER} #{HOME}"
