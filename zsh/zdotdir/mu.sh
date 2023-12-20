@@ -10,7 +10,7 @@ function execute-mitamae-recipe {
   file=$(rg --files *.rb | fzf)
 
   if [ -n "$file" ]; then
-    ruby "$file"
+    mitamae local "$file"
     zle accept-line
   fi
 }
