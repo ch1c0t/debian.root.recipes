@@ -1,0 +1,8 @@
+so $VIMRUNTIME/defaults.vim
+
+set ignorecase	" Do case insensitive matching
+set smartcase		" Do smart case matching
+set incsearch		" Incremental search
+set hlsearch		" Highlight what was found
+set autowrite		" Automatically save before commands like :next and :make
+set hidden		  " Hide buffers when they are abandoned
