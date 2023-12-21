@@ -1,4 +1,4 @@
-# https://superuser.com/questions/403355/how-do-i-get-searching-through-my-command-history-working-with-tmux-and-zshell
+# https://unix.stackexchange.com/questions/746605/bindkey-commands-run-in-zshrc-seem-ignored-when-in-tmux/746633#746633
 bindkey -e
 
 bindkey '^j' autosuggest-execute
