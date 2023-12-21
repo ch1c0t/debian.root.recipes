@@ -1,4 +1,8 @@
-" https://s0ands0.github.io/100-days-of-code/r001/084-vim-glob/
-for file in glob('~/.vim/*.vim', 1, 1)
-  exe 'so' file
-endfor
+so $VIMRUNTIME/defaults.vim
+
+set ignorecase	" Do case insensitive matching
+set smartcase		" Do smart case matching
+set incsearch		" Incremental search
+set hlsearch		" Highlight what was found
+set autowrite		" Automatically save before commands like :next and :make
+set hidden		  " Hide buffers when they are abandoned
