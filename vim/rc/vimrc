@@ -13,3 +13,5 @@ set list        " Show tabs and newlines
 
 set autoindent
 set expandtab
+
+colorscheme murphy
