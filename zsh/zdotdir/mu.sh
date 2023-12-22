@@ -4,7 +4,12 @@ function mu {
 }
 
 function execute-mitamae-recipe {
-  cd ~/recipes
+  local dir
+  if [[ $UID == 0 ]]; then
+    dir=/etc/mu/recipes
+  else
+    dir=~/recipes
+  fi; cd "$dir"
 
   local file
   file=$(rg --files *.rb | fzf)
