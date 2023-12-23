@@ -1,3 +1,17 @@
+bat
+fd-find
+git
+htop
+i3
+neovim
+ruby
 tmux
+tmuxinator
+tree
 vim
+x11-xkb-utils
+x11-xserver-utils
 zsh
+zsh-autosuggestions
+zsh-doc
+zsh-syntax-highlighting

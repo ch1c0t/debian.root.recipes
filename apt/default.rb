@@ -1,5 +1,6 @@
 remote_file '/etc/apt/sources.list' do
   source 'sources.list'
+  mode '644'
 end
 
 directory '/etc/apt/sources.list.d'
