@@ -1,4 +1,4 @@
-USER = ENV['MUSER']
+USER ||= ENV['MUSER']
 HOME = USER == 'root' ? '/root' : "/home/#{USER}"
 
 unless USER == 'root'
