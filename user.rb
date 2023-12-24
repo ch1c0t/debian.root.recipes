@@ -8,6 +8,10 @@ unless USER == 'root'
     create_home true
     shell '/bin/zsh'
   end
+
+  directory HOME do
+    mode '700'
+  end
 end
 
 include_recipe 'base'
@@ -18,6 +22,5 @@ include_recipe 'git'
 include_recipe 'vim'
 
 unless USER == 'root'
-  execute "chmod -R 700 #{HOME}"
   execute "chown -R #{USER}:#{USER} #{HOME}"
 end
