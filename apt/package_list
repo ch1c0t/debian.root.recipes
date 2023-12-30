@@ -5,6 +5,7 @@ git
 htop
 i3
 neovim
+ripgrep
 ruby
 tmux
 tmuxinator
