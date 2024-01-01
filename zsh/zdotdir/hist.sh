@@ -1,6 +1,6 @@
-HISTFILE=~/.local/share/zsh/history
-HISTSIZE=100000
-SAVEHIST=100000
+export HISTFILE=~/.local/share/zsh/history
+export HISTSIZE=100000
+export SAVEHIST=100000
 
 autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
 zle -N up-line-or-beginning-search
