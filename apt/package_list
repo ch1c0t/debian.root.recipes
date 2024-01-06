@@ -12,6 +12,7 @@ tmux
 tmuxinator
 tree
 vim
+vim-command-t
 x11-xkb-utils
 x11-xserver-utils
 zsh
