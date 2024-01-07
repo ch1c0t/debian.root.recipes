@@ -6,3 +6,6 @@ nmap <silent> <leader>tc <Plug>(CommandTCommand)
 nmap <silent> <leader>tl <Plug>(CommandTLine)
 nmap <silent> <leader>ts <Plug>(CommandTSearch)
 nmap <silent> <leader>tt <Plug>(CommandTTag)
+
+exe "set <M-e>=\ee"
+nnoremap <M-e>f <Plug>(CommandT)
