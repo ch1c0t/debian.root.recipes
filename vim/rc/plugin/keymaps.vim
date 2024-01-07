@@ -9,3 +9,5 @@ nmap <silent> <leader>b <Plug>(CommandTMRU)
 " https://stackoverflow.com/questions/7501092/can-i-map-alt-key-in-vim/27206531#27206531
 exe "set <M-t>=\et"
 nnoremap <M-t> <C-^>
+
+nmap <C-a> :w<CR>:so %<CR>
