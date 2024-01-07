@@ -5,7 +5,8 @@ map <space> \
 
 nmap <silent> <leader>f <Plug>(CommandT)
 nmap <silent> <leader>b <Plug>(CommandTMRU)
-nmap <silent> <leader>h <Plug>(CommandTHelp)
+nmap <silent> <leader>th <Plug>(CommandTHelp)
+nmap <silent> <leader>ti <Plug>(CommandTHistory)
 
 " https://stackoverflow.com/questions/7501092/can-i-map-alt-key-in-vim/27206531#27206531
 exe "set <M-t>=\et"
