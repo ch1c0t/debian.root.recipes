@@ -1,5 +1,12 @@
 USER ||= ENV['MUSER']
-HOME = USER == 'root' ? '/root' : "/home/#{USER}"
+
+def default_home
+  struct = Etc.getpwnam USER
+  struct.nil? ? "/home/#{USER}" : struct.dir
+end
+
+specified_home = ENV['MUSER_HOME']
+HOME = specified_home or default_home
 
 unless USER == 'root'
   user :create do

@@ -1,6 +1,6 @@
 function mu {
   cd /etc/mu/recipes
-  MUSER=$1 mitamae local user.rb
+  MUSER=$1 MUSER_HOME=$2 mitamae local user.rb
 }
 
 function execute-mitamae-recipe {
