@@ -7,8 +7,8 @@ module Default
   end
 end
 
-specified_home = ENV['MUSER_HOME']
-HOME = specified_home || Default.home
+HOME = ENV['MUSER_HOME']
+HOME = Default.home if (HOME.nil? or HOME.empty?)
 
 unless USER == 'root'
   user :create do
