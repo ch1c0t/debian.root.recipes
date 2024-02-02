@@ -10,3 +10,4 @@
 . $ZDOTDIR/mu.sh
 . $ZDOTDIR/bindkey.sh
 . $ZDOTDIR/hist.sh
+. $ZDOTDIR/tmux-logging.sh
