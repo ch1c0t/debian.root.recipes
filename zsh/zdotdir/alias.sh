@@ -3,6 +3,7 @@ alias be='bundle exec'
 alias s="systemctl"
 alias u="systemctl --user"
 alias j="journalctl"
+alias ju="journalctl --user"
 
 alias bus="busctl"
 alias bu="busctl --user"
