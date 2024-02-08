@@ -5,5 +5,5 @@ git :sync do
 end
 
 execute 'zsh -c "source ~/.config/zsh/nvm.sh && \
-nvm install lts/iron \
+nvm install lts/iron && \
 nvm alias default lts/iron"'
