@@ -8,4 +8,5 @@ unless USER == 'root'
   end
 
   directory "#{HOME}/.local/bin"
+  directory "#{HOME}/.config/systemd/user"
 end
