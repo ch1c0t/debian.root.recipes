@@ -6,4 +6,6 @@ unless USER == 'root'
   remote_directory "#{HOME}/recipes" do
     source '.'
   end
+
+  directory "#{HOME}/.local/bin"
 end
