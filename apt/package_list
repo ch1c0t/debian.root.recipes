@@ -17,8 +17,10 @@ libreadline-dev
 libssl-dev
 libyaml-dev
 neovim
+rbenv
 ripgrep
 ruby
+ruby-build
 rustc
 sakura
 tmux
