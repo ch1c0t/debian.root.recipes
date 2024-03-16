@@ -11,3 +11,4 @@
 . $ZDOTDIR/bindkey.sh
 . $ZDOTDIR/hist.sh
 . $ZDOTDIR/nvm.sh
+. $ZDOTDIR/chruby.sh
