@@ -22,6 +22,8 @@ ripgrep
 ruby
 rustc
 sakura
+sqlite3
+sqlite3-doc
 tmux
 tmuxinator
 tree
