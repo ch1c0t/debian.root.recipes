@@ -2,7 +2,7 @@ function change-directory {
   local dir
 
   if [[ "$PWD" -ef "$HOME" ]]; then
-    dir=$(fdfind --type d --strip-cwd-prefix --hidden --exclude .git --follow --max-depth 2 | fzf --reverse --height 100% --preview 'tree -C {} | head -200')
+    dir=$(fdfind --type d --strip-cwd-prefix --hidden --exclude .git --follow --max-depth 3 | fzf --reverse --height 100% --preview 'tree -C {} | head -200')
   else
     dir=$(fdfind --type d --strip-cwd-prefix --hidden --exclude .git --follow | fzf --reverse --height 100% --preview 'tree -C {} | head -200')
   fi
