@@ -31,6 +31,7 @@ vim
 vim-command-t
 x11-xkb-utils
 x11-xserver-utils
+xsel
 zlib1g-dev
 zsh
 zsh-autosuggestions

@@ -1,5 +1,5 @@
-remote_file "#{HOME}/.xinitrc" do
-  source '.xinitrc'
+remote_file "#{HOME}/.xsession" do
+  source '.xsession'
 end
 
 directory "#{HOME}/.config/i3"
