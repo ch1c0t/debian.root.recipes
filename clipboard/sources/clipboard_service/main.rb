@@ -4,6 +4,7 @@ require 'open3'
 file = '/tmp/clipboard.socket'
 File.unlink file if File.exist? file
 server = UNIXServer.new file
+File.chmod 0660, file
 
 loop do
   socket = server.accept
