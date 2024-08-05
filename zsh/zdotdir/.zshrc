@@ -12,3 +12,4 @@
 . $ZDOTDIR/hist.sh
 . $ZDOTDIR/nvm.sh
 . $ZDOTDIR/chruby.sh
+. $ZDOTDIR/android.sh
