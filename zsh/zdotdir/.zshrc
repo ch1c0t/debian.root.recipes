@@ -13,3 +13,4 @@
 . $ZDOTDIR/nvm.sh
 . $ZDOTDIR/chruby.sh
 . $ZDOTDIR/android.sh
+. $ZDOTDIR/flutter.sh
