@@ -12,5 +12,5 @@
 . $ZDOTDIR/hist.sh
 . $ZDOTDIR/nvm.sh
 . $ZDOTDIR/chruby.sh
-. $ZDOTDIR/android.sh
-. $ZDOTDIR/flutter.sh
+[[ -d "$HOME/Android" ]] && . $ZDOTDIR/android.sh
+[[ -d "$HOME/archive/flutter/flutter" ]] && . $ZDOTDIR/flutter.sh
