@@ -9,3 +9,4 @@ nnoremap <M-t> <C-^>
 
 " https://learnvimscriptthehardway.stevelosh.com/chapters/04.html
 nmap <c-u> viwU
+imap <c-u> <esc>viwUwa
