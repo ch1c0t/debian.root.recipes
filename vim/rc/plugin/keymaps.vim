@@ -8,5 +8,5 @@ exe "set <M-t>=\et"
 nnoremap <M-t> <C-^>
 
 " https://learnvimscriptthehardway.stevelosh.com/chapters/04.html
-nmap <c-u> viwU
-imap <c-u> <esc>viwUwa
+nnoremap <c-u> viwU
+inoremap <c-u> <esc>viwUea
