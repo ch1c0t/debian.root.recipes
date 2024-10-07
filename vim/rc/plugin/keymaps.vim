@@ -10,3 +10,7 @@ nnoremap <M-t> <C-^>
 " https://learnvimscriptthehardway.stevelosh.com/chapters/04.html
 nnoremap <c-u> viwU
 inoremap <c-u> <esc>viwUea
+
+" https://learnvimscriptthehardway.stevelosh.com/chapters/09.html
+nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
+nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
