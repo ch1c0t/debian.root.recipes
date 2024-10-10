@@ -14,3 +14,6 @@ inoremap <c-u> <esc>viwUea
 " https://learnvimscriptthehardway.stevelosh.com/chapters/09.html
 nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
+
+" https://learnvimscriptthehardway.stevelosh.com/chapters/15.html
+onoremap p :<c-u>normal! f)vi(<cr>
