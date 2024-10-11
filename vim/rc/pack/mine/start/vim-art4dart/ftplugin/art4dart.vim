@@ -1,2 +1,1 @@
-" https://learnvimscriptthehardway.stevelosh.com/chapters/11.html
-inoremap <buffer> qw aaaaa
+nnoremap <buffer> o o<tab>
