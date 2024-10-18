@@ -3,6 +3,9 @@
 nnoremap <leader>g :set operatorfunc=GrepOperator<cr>g@
 vnoremap <leader>g :<c-u>call GrepOperator(visualmode())<cr>
 
+set grepprg=rg\ --vimgrep\ --smart-case\ --hidden
+set grepformat=%f:%l:%c:%m
+
 function! GrepOperator(type)
   let saved_unnamed_register = @@
 
@@ -14,8 +17,8 @@ function! GrepOperator(type)
     echom a:type
   endif
 
-  silent exe "grep! -R " . shellescape(@@) . " ."
-  copen
-
+  silent exe "grep! " . shellescape(@@) . " ."
   let @@ = saved_unnamed_register
+
+  copen
 endfunction
