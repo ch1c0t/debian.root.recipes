@@ -3,6 +3,7 @@
 nnoremap <leader>g :set operatorfunc=GrepOperator<cr>g@
 vnoremap <leader>g :<c-u>call GrepOperator(visualmode())<cr>
 
+" https://phelipetls.github.io/posts/extending-vim-with-ripgrep/
 set grepprg=rg\ --vimgrep\ --smart-case\ --hidden
 set grepformat=%f:%l:%c:%m
 
