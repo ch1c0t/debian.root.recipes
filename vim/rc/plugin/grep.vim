@@ -18,8 +18,9 @@ function! GrepOperator(type)
     echom a:type
   endif
 
-  silent exe "grep! " . shellescape(@@) . " ."
+  silent exe "grep " . shellescape(@@)
   let @@ = saved_unnamed_register
 
   copen
+  redraw!
 endfunction
