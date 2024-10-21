@@ -9,3 +9,16 @@ nnoremap ]L :lnewer<cr>
 nnoremap [L :lolder<cr>
 
 hi QuickFixLine ctermbg=Red
+
+" https://vi.stackexchange.com/a/21739
+augroup quickfix
+  autocmd!
+  autocmd QuickFixCmdPost [^l]* call OpenQuickFixList()
+augroup END
+
+function OpenQuickFixList()
+  wincmd o
+  vert cwindow
+  wincmd p
+  wincmd =
+endfunction

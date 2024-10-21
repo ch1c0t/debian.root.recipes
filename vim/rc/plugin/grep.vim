@@ -21,6 +21,5 @@ function! GrepOperator(type)
   silent exe "grep " . shellescape(@@)
   let @@ = saved_unnamed_register
 
-  copen
   redraw!
 endfunction
