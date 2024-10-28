@@ -17,3 +17,5 @@ nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
 
 " https://learnvimscriptthehardway.stevelosh.com/chapters/15.html
 onoremap p :<c-u>normal! f)vi(<cr>
+
+nnoremap <M-e>e :echom<space>
