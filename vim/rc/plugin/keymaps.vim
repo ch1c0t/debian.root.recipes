@@ -19,3 +19,4 @@ nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
 onoremap p :<c-u>normal! f)vi(<cr>
 
 nnoremap <M-e>e :echom<space>
+nnoremap <M-e>c :call<space>
