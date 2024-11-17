@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/bin/sh
 if [ "$(tmux list-pane | wc -l)" = 1 ]; then
   tmux send-keys C-w h
 else

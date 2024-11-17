@@ -2,6 +2,7 @@ autoconf
 bat
 bison
 build-essential
+curl
 exa
 fd-find
 fzf
@@ -32,6 +33,7 @@ tmuxinator
 tree
 vim
 vim-command-t
+wget
 x11-xkb-utils
 x11-xserver-utils
 xsel
