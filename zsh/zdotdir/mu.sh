@@ -1,14 +1,18 @@
 function mu {
-  cd /etc/mu/recipes
+  cd ~/recipes
   MUSER=$1 MUSER_HOME=$2 mitamae local user.rb
 }
 
 function execute-mitamae-recipe {
   local dir
   if [[ $UID == 0 ]]; then
-    dir=/etc/mu/recipes
-  else
     dir=~/recipes
+  else
+    if [[ -d "$HOME/user.recipes" ]]; then
+      dir=~/user.recipes
+    else
+      dir=~/recipes
+    fi
   fi; cd "$dir"
 
   local file

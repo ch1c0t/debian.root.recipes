@@ -10,6 +10,3 @@
 . $ZDOTDIR/mu.sh
 . $ZDOTDIR/bindkey.sh
 . $ZDOTDIR/hist.sh
-. $ZDOTDIR/mise.sh
-[[ -d "$HOME/Android" ]] && . $ZDOTDIR/android.sh
-[[ -d "$HOME/archive/flutter/flutter" ]] && . $ZDOTDIR/flutter.sh
