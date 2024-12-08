@@ -29,6 +29,7 @@ rustc
 sakura
 sqlite3
 sqlite3-doc
+tig
 tmux
 tmuxinator
 tree
