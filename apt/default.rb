@@ -12,4 +12,4 @@ end
 package 'findutils'
 package 'apt'
 
-execute 'xargs -a /etc/mu/recipes/apt/package_list apt install -y'
+execute 'xargs -a /root/recipes/apt/package_list apt install -y'
