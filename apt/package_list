@@ -5,6 +5,8 @@ build-essential
 curl
 exa
 fd-find
+firmware-linux
+fonts-unifont
 fzf
 fzy
 gdb
@@ -25,6 +27,7 @@ moc
 moc-ffmpeg-plugin
 neovim
 pipx
+psf-unifont
 ripgrep
 ruby
 rustc
@@ -35,11 +38,13 @@ tig
 tmux
 tmuxinator
 tree
+unifont
 vim
 vim-command-t
 wget
 x11-xkb-utils
 x11-xserver-utils
+xfonts-unifont
 xsel
 zlib1g-dev
 zsh
