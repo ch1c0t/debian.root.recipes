@@ -6,5 +6,3 @@ deb-src https://deb.debian.org/debian-security/ bookworm-security main contrib n
 
 deb https://deb.debian.org/debian bookworm-updates main contrib non-free
 deb-src https://deb.debian.org/debian bookworm-updates main contrib non-free
-
-deb https://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
