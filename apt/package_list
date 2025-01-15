@@ -27,6 +27,8 @@ moc
 moc-ffmpeg-plugin
 neovim
 pipx
+podman
+podman-docker
 psf-unifont
 ripgrep
 ruby
