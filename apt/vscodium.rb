@@ -11,6 +11,7 @@ end
 
 file "/etc/apt/sources.list.d/vscodium.list" do
   content "deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg] https://download.vscodium.com/debs vscodium main"
+  mode '644'
 end
 
 package 'codium'
