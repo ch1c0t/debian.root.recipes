@@ -5,9 +5,6 @@ end
 
 directory '/etc/apt/sources.list.d'
 
-include_recipe 'r'
-include_recipe 'vscodium'
-
 package 'findutils'
 package 'apt'
 
