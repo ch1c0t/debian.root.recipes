@@ -41,8 +41,6 @@ tmux
 tmuxinator
 tree
 unifont
-v4l2loopback-dkms
-v4l2loopback-utils
 vim
 vim-command-t
 wget
