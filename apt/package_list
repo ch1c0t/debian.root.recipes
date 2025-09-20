@@ -28,6 +28,7 @@ libyaml-dev
 moc
 moc-ffmpeg-plugin
 neovim
+pass
 pipx
 podman
 podman-docker
