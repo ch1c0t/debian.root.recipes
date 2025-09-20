@@ -1,5 +1,5 @@
 #!/bin/sh
 cd /usr/local/bin && \
-  wget -O mitamae https://github.com/itamae-kitchen/mitamae/releases/download/v1.14.2/mitamae-x86_64-linux && \
+  wget -O mitamae https://github.com/itamae-kitchen/mitamae/releases/download/v1.14.4/mitamae-x86_64-linux && \
   chmod +x mitamae
 cd /root/recipes && mitamae local bootstrap.rb
