@@ -14,10 +14,12 @@ fonts-unifont
 fzf
 fzy
 gdb
+gh
 git
 gpm
 htop
 i3
+jq
 libffi-dev
 libgdbm6
 libgdbm-dev
