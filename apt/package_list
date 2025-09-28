@@ -59,6 +59,7 @@ x11-xkb-utils
 x11-xserver-utils
 xfonts-unifont
 xsel
+xsensors
 zathura
 zlib1g-dev
 zoxide
