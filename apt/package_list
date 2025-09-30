@@ -3,6 +3,7 @@ bat
 bison
 build-essential
 chromium
+cpu-checker
 curl
 eza
 fd-find
@@ -40,6 +41,8 @@ pipx
 podman
 podman-docker
 psf-unifont
+qemu-system
+qemu-utils
 ripgrep
 ruby
 rustc
