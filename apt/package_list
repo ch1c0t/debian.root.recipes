@@ -36,6 +36,8 @@ mmdebstrap
 moc
 moc-ffmpeg-plugin
 neovim
+obs-cli
+obs-studio
 pass
 pipx
 podman
@@ -47,6 +49,7 @@ ripgrep
 ruby
 rustc
 sakura
+screenkey
 scrot
 sqlite3
 sqlite3-doc
