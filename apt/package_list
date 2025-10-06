@@ -19,6 +19,7 @@ fzy
 gdb
 gh
 git
+gobject-introspection
 gpm
 htop
 i3
@@ -27,6 +28,7 @@ libffi-dev
 libgdbm6
 libgdbm-dev
 libgmp-dev
+libgtk-4-dev
 libncurses5-dev
 libreadline-dev
 libsqlite3-dev
