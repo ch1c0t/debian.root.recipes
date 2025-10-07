@@ -6,6 +6,7 @@ build-essential
 chromium
 cpu-checker
 curl
+dunst
 eza
 fd-find
 feh
@@ -31,6 +32,7 @@ libgdbm-dev
 libgmp-dev
 libgtk-4-dev
 libncurses5-dev
+libnotify-bin
 libreadline-dev
 libsqlite3-dev
 libssl-dev
