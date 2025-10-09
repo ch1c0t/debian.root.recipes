@@ -51,6 +51,7 @@ psf-unifont
 qemu-system
 qemu-utils
 ripgrep
+rofi
 ruby
 rustc
 sakura
