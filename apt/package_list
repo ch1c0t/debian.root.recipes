@@ -71,6 +71,7 @@ webext-vimium-chromium
 wget
 x11-xkb-utils
 x11-xserver-utils
+xcompmgr
 xfonts-unifont
 xsel
 xsensors
