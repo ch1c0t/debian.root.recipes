@@ -23,3 +23,8 @@ remote_file "/usr/local/bin/to-right-pane" do
   source 'to-right-pane'
   mode '755'
 end
+
+remote_file "/usr/local/bin/habit-sequence" do
+  source 'habit-sequence'
+  mode '755'
+end

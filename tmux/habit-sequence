@@ -1,0 +1,7 @@
+#!/bin/sh
+systemctl stop gdm.service
+apt update
+apt upgrade
+systemd-analyze blame
+systemd-analyze critical-chain
+systemd-analyze
