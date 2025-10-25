@@ -11,6 +11,7 @@ eza
 fd-find
 feh
 ffmpeg
+file
 firmware-linux
 foliate
 fonts-ubuntu
@@ -26,6 +27,7 @@ gpm
 htop
 i3
 jq
+libayatana-appindicator3-dev
 libffi-dev
 libgdbm6
 libgdbm-dev
@@ -34,8 +36,10 @@ libgtk-4-dev
 libncurses5-dev
 libnotify-bin
 libreadline-dev
+librsvg2-dev
 libsqlite3-dev
 libssl-dev
+libwebkit2gtk-4.1-dev
 libyaml-dev
 mmdebstrap
 moc
@@ -69,6 +73,7 @@ vim
 vim-command-t
 vlc
 webext-vimium-chromium
+webkit2gtk-driver
 wget
 x11-xkb-utils
 x11-xserver-utils
