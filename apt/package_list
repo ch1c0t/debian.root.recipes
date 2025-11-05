@@ -80,6 +80,7 @@ wget
 x11-xkb-utils
 x11-xserver-utils
 xcompmgr
+xdotool
 xfonts-unifont
 xsel
 xsensors
