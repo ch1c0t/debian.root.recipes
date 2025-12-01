@@ -9,3 +9,5 @@ package 'findutils'
 package 'apt'
 
 execute 'xargs -a /root/recipes/apt/package_list apt install -y'
+
+include_recipe 'vscodium'
