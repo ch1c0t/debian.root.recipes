@@ -32,6 +32,7 @@ libayatana-appindicator3-dev
 libffi-dev
 libgdbm6
 libgdbm-dev
+libglu1-mesa
 libgmp-dev
 libgtk-4-dev
 libncurses5-dev
@@ -73,6 +74,7 @@ tmuxinator
 transmission
 tree
 unifont
+unzip
 vim
 vim-command-t
 vlc
@@ -86,7 +88,9 @@ xdotool
 xfonts-unifont
 xsel
 xsensors
+xz-utils
 zathura
+zip
 zlib1g-dev
 zoxide
 zsh
