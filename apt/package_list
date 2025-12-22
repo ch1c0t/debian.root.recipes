@@ -5,6 +5,8 @@ bat
 bison
 build-essential
 chromium
+clang
+cmake
 cpu-checker
 curl
 dunst
@@ -44,11 +46,13 @@ libssl-dev
 libwebkit2gtk-4.1-dev
 libxdo-dev
 libyaml-dev
+mesa-utils
 mmdebstrap
 moc
 moc-ffmpeg-plugin
 mpv
 neovim
+ninja-build
 obs-cli
 obs-studio
 pass
