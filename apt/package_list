@@ -16,6 +16,7 @@ feh
 ffmpeg
 file
 firmware-linux
+flameshot
 foliate
 fonts-ubuntu
 fonts-ubuntu-console
@@ -46,6 +47,7 @@ libssl-dev
 libwebkit2gtk-4.1-dev
 libxdo-dev
 libyaml-dev
+luarocks
 mesa-utils
 mmdebstrap
 moc
