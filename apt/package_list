@@ -33,6 +33,7 @@ i3
 jq
 libayatana-appindicator3-dev
 libffi-dev
+libfuse-dev
 libgdbm6
 libgdbm-dev
 libglu1-mesa
