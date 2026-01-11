@@ -80,6 +80,7 @@ tmux
 tmuxinator
 transmission
 tree
+tree-sitter-cli
 unifont
 unzip
 vim
