@@ -1,8 +1,8 @@
 commands = """
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
     | gpg --dearmor \
-    | dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg \
-&& apt update
+    | dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+apt-get update
 """
 
 execute commands do
