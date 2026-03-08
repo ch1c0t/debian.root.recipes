@@ -57,6 +57,7 @@ mmdebstrap
 moc
 moc-ffmpeg-plugin
 mpv
+ncdu
 neovim
 ninja-build
 obs-cli
