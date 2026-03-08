@@ -52,6 +52,7 @@ libxdo-dev
 libyaml-dev
 luarocks
 mesa-utils
+mkosi
 mmdebstrap
 moc
 moc-ffmpeg-plugin
