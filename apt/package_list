@@ -9,6 +9,7 @@ clang
 cmake
 cpu-checker
 curl
+dumpet
 dunst
 eza
 fd-find
@@ -24,6 +25,7 @@ fonts-unifont
 fzf
 fzy
 gdb
+gddrescue
 gh
 git
 gobject-introspection
@@ -74,6 +76,7 @@ screenkey
 scrot
 sqlite3
 sqlite3-doc
+squashfs-tools
 tealdeer
 tig
 tmux
@@ -94,6 +97,7 @@ x11-xserver-utils
 xcompmgr
 xdotool
 xfonts-unifont
+xorriso
 xsel
 xsensors
 xz-utils
