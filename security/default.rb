@@ -7,3 +7,7 @@ end
 service 'avahi-daemon.socket' do
   action [:stop, :disable]
 end
+
+service 'redis-server' do
+  action [:stop, :disable]
+end

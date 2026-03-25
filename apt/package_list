@@ -69,6 +69,8 @@ podman-docker
 psf-unifont
 qemu-system
 qemu-utils
+redis-server
+redis-tools
 ripgrep
 rofi
 ruby
