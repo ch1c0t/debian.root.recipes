@@ -50,6 +50,7 @@ libssl-dev
 libwebkit2gtk-4.1-dev
 libxdo-dev
 libyaml-dev
+ltrace
 luarocks
 mesa-utils
 mkosi
@@ -81,6 +82,7 @@ scrot
 sqlite3
 sqlite3-doc
 squashfs-tools
+strace
 tealdeer
 tig
 tmux
