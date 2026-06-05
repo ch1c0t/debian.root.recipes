@@ -3,6 +3,8 @@ audacity
 autoconf
 bat
 bison
+bpftool
+bpftrace
 build-essential
 chromium
 clang
