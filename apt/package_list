@@ -5,6 +5,7 @@ bat
 bison
 bpftool
 bpftrace
+bubblewrap
 build-essential
 chromium
 clang
@@ -20,6 +21,7 @@ ffmpeg
 file
 firmware-linux
 flameshot
+flatpak
 foliate
 fonts-ubuntu
 fonts-ubuntu-console
