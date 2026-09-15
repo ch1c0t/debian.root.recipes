@@ -54,7 +54,9 @@ librsvg2-dev
 libsqlite3-dev
 libssl-dev
 libwebkit2gtk-4.1-dev
+libx11-dev
 libxdo-dev
+libxext-dev
 libyaml-dev
 ltrace
 luarocks
