@@ -60,6 +60,7 @@ libxext-dev
 libyaml-dev
 ltrace
 luarocks
+matchbox-window-manager
 mesa-utils
 mkosi
 mmdebstrap
