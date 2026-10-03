@@ -53,6 +53,7 @@ libreadline-dev
 librsvg2-dev
 libsqlite3-dev
 libssl-dev
+libtesseract-dev
 libwebkit2gtk-4.1-dev
 libx11-dev
 libxdo-dev
@@ -93,6 +94,7 @@ sqlite3-doc
 squashfs-tools
 strace
 tealdeer
+tesseract-ocr
 tig
 tmux
 tmuxinator
