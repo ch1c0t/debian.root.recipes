@@ -8,6 +8,7 @@ bpftool
 bpftrace
 bubblewrap
 build-essential
+ccache
 chromium
 clang
 cmake
