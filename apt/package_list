@@ -113,6 +113,7 @@ webkit2gtk-driver
 wget
 x11-xkb-utils
 x11-xserver-utils
+xclip
 xcompmgr
 xdotool
 xfonts-unifont
